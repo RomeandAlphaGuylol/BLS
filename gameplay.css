@@ -1,15 +1,12 @@
 body {
     background-image: url("denim.jpg");
 }
-.landing{
-    text-align: center;
-}
 @font-face {
     font-family: 'BosanskiFont';
     src: url('BosanskiFont.ttf') format('truetype');
-  }
+}
 
-  .navbar {
+.navbar {
     background-color: #333;
     height: 60px;
     display: flex;
@@ -55,42 +52,26 @@ body {
   .navbar-links li a:hover {
     color: #aaa;
   }
-
-
-
-  
-  .github-icon {
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 5px;
-  }
-
-  .github-button {
-    display: inline-block;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    padding: 10px 15px;
-    border-radius: 4px;
-    text-decoration: none;
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    transition: background-color 0.3s ease;
-  }
-
-  .github-button:hover {
-    background-color: #444;
-  }
-  
-  .center-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-  
-
-  .title {
+  .game-box {
+    width: 700px;
+    height: 500px;
+    border: 1px solid rgb(221, 216, 216);
+    background-image: url('gmplay1.png');
+    background-size: cover;
+    background-position: center;
+    margin-top: 600px;
+}
+.game-box2 {
+    width: 1000px;
+    height: 500px;
+    border: 1px solid black;
+    background-image: url('gmplay2.png');
+    background-size: cover;
+    background-position: center;
+    margin-top: 600px;
+    margin-right: 50px;
+}
+.title {
     font-family: 'BosanskiFont', Arial, sans-serif;
     font-size: 24px;
     color: #db4d4d;
@@ -103,6 +84,3 @@ body {
     text-align: center;
     margin-top: 20px;
   }
-img {
-  margin-bottom: 10px;
-}
