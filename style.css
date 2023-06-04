@@ -7,8 +7,6 @@ body {
 @font-face {
     font-family: 'BosanskiFont';
     src: url('BosanskiFont.ttf') format('truetype');
-    /* Add additional font formats if necessary */
-    /* Example: src: url('BosanskiFont.woff') format('woff'); */
   }
 
   .navbar {
