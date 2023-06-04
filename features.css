@@ -1,14 +1,12 @@
 body {
     background-image: url("denim.jpg");
 }
-.feature {
-    text-align: center;
-}
 @font-face {
     font-family: 'BosanskiFont';
     src: url('BosanskiFont.ttf') format('truetype');
 }
-.h1 {
+.feature {
+    text-align: center;
     font-family: 'BosanskiFont', Arial, sans-serif;
     font-size: 24px;
 }
