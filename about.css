@@ -7,7 +7,7 @@
     font-size: 24px;
     color: #db4d4d;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 50px;
   }
   .subtitle {
     font-family: 'BosanskiFont', Arial, sans-serif;
@@ -72,4 +72,6 @@ body {
     color: #986fe4;
     text-decoration: none;
     font-size: 14px;
+    text-align: center;
+    margin-right: 70px;
 }
